@@ -19,5 +19,11 @@
         name: docker
         state: started
 
+    - name: Stop and Remove Existing Container (if it exists)
+      shell: |
+        docker stop calculator || true
+        docker rm calculator || true
+      ignore_errors: yes
+
     - name: Run Docker container
       shell: docker run -it -d --name calculator calculator
