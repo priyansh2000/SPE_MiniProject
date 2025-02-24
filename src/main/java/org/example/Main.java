@@ -17,6 +17,11 @@ public class Main {
         if (n < 0) {
             throw new IllegalArgumentException("Cannot compute factorial of a negative number.");
         }
+        if (n>20) {
+            throw new IllegalArgumentException("infinity ");
+        }
+
+
         long result = 1;
         for (int i = 2; i <= n; i++) {
             result *= i;
