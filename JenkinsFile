@@ -25,8 +25,7 @@ pipeline {
         stage(' Run Main Application') {
             steps {
                 script {
-                    sh "java -jar target/Calculator-1.0-SNAPSHOT.jar ${OPTION} ${NUMBER} ${EXP}"
-
+                    sh "echo '1' | java -jar target/Calculator-1.0-SNAPSHOT.jar"
                 }
             }
         }
