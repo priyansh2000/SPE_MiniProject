@@ -17,16 +17,9 @@ pipeline {
                 }
             }
         }
- stage('Build') {
+        stage('Build') {
             steps {
                 sh 'mvn clean package'
-            }
-        }
-        stage(' Run Main Application') {
-            steps {
-                script {
-                    sh "echo '1' | java -jar target/Calculator-1.0-SNAPSHOT.jar"
-                }
             }
         }
 
