@@ -68,7 +68,7 @@ public class Main {
             try {
                 switch (choice) {
                     case 1:
-                        System.out.print("Enter a non-negative number: ");
+                        System.out.print("Enter a non negative number: ");
                         double num = Double.parseDouble(scanner.nextLine());
                         double sqrtResult = squareRoot(num);
                         System.out.println("Square root of " + num + " is: " + sqrtResult);
