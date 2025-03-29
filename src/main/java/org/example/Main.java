@@ -42,10 +42,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        // Original snippet from your example
 
-
-        // Below is the Scientific Calculator menu-driven code
         Scanner scanner = new Scanner(System.in);
         int choice;
 
