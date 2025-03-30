@@ -54,6 +54,7 @@ public class Main {
             System.out.println("4. Power Function (x^b)");
             System.out.println("5. Exit");
             System.out.print(" Hey!! Enter your choice : ");
+            //testing ng rok
 
             try {
                 choice = Integer.parseInt(scanner.nextLine());
