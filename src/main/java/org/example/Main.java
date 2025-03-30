@@ -83,6 +83,7 @@ public class Main {
                         double lnResult = naturalLog(lnInput);
                         System.out.println("Natural logarithm of " + lnInput + " is: " + lnResult);
                         break;
+                        //this
                     case 4:
                         System.out.print("Enter the base: ");
                         double base = Double.parseDouble(scanner.nextLine());
